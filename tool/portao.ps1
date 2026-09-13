@@ -49,5 +49,5 @@ finally {
 }
 
 Write-Host ""
-Write-Host "PORTAO VERDE — os quatro passos passaram." -ForegroundColor Green
+Write-Host "PORTAO VERDE - os quatro passos passaram." -ForegroundColor Green
 exit 0

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../theme/app_colors.dart';
+import 'new_quote_customer_screen.dart';
 
 enum _QuoteStatus { draft, sent, approved, refused }
 
@@ -114,7 +115,6 @@ class QuoteListScreen extends StatefulWidget {
 
 class _QuoteListScreenState extends State<QuoteListScreen> {
   _Filter _selectedFilter = _Filter.all;
-  int _navIndex = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -159,32 +159,13 @@ class _QuoteListScreenState extends State<QuoteListScreen> {
         ],
       ),
       floatingActionButton: FloatingActionButton.extended(
-        onPressed: () {},
+        onPressed: () => Navigator.of(context).push(
+          MaterialPageRoute(builder: (_) => const NewQuoteCustomerScreen()),
+        ),
         backgroundColor: AppColors.primary,
         foregroundColor: AppColors.onPrimary,
         icon: const Icon(Icons.add),
         label: const Text('Novo orçamento'),
-      ),
-      bottomNavigationBar: NavigationBar(
-        selectedIndex: _navIndex,
-        onDestinationSelected: (index) => setState(() => _navIndex = index),
-        destinations: const [
-          NavigationDestination(
-            icon: Icon(Icons.description_outlined),
-            selectedIcon: Icon(Icons.description),
-            label: 'Orçamentos',
-          ),
-          NavigationDestination(
-            icon: Icon(Icons.build_outlined),
-            selectedIcon: Icon(Icons.build),
-            label: 'Catálogo',
-          ),
-          NavigationDestination(
-            icon: Icon(Icons.people_outline),
-            selectedIcon: Icon(Icons.people),
-            label: 'Clientes',
-          ),
-        ],
       ),
     );
   }
@@ -452,7 +433,11 @@ class _EmptyState extends StatelessWidget {
             ),
             const SizedBox(height: 16),
             FilledButton.icon(
-              onPressed: () {},
+              onPressed: () => Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => const NewQuoteCustomerScreen(),
+                ),
+              ),
               icon: const Icon(Icons.add),
               label: const Text('Criar primeiro orçamento'),
             ),

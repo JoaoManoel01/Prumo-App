@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'presentation/screens/quote_list_screen.dart';
+import 'presentation/screens/home_shell.dart';
 import 'presentation/theme/app_theme.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class PrumoApp extends StatelessWidget {
       title: 'Prumo',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
-      home: const QuoteListScreen(),
+      home: const HomeShell(),
     );
   }
 }
