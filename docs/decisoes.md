@@ -131,3 +131,22 @@ O `ciclo-00-fundacao.md` escreve `apresentacao/`; o brief do ciclo 01 escreve
 - **Pendência:** `com.prumo` foi escolhido por falta de `context.md`. Se o
   identificador de aplicação importa para publicação, revisar antes do ciclo 02 —
   mudar `applicationId` depois de publicar é impossível.
+
+## D-010 — Nome definitivo: Prumo
+
+**Data:** 2026-09-13 · **Decisão de João**
+
+"Prumo" deixa de ser nome de trabalho descartável e passa a ser o nome
+definitivo do aplicativo. O `applicationId` `com.prumo` e o pacote `prumo`
+(D-009) ficam confirmados.
+
+- **Motivo:** João gostou do nome. Não há custo de migração: o projeto já nasceu
+  com `com.prumo` e `prumo`.
+- **Alternativa descartada:** manter o nome "descartável" aguardando
+  `instructions-brandkit.md` propor um substituto. Trava a identidade sem
+  benefício, e o nome atual já agradou o decisor.
+- **Custo de reverter:** baixo até a publicação na loja. Depois de publicado,
+  mudar `applicationId` e pacote é impossível na prática.
+- **Pendência:** quando `instructions-brandkit.md` chegar, reconciliar a
+  identidade visual/verbal contra este nome. Se o documento propuser outro nome,
+  reabrir esta decisão e D-009 antes do ciclo 02.

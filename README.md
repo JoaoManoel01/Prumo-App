@@ -1,9 +1,8 @@
 # Prumo
 
-> **"Prumo" é nome de trabalho e descartável.** A identidade definitiva sai de
-> `docs/instructions-brandkit.md`, que ainda não está no repositório
-> (ver `docs/_FALTANDO.md`). Trocar o nome depois custa: `applicationId`,
-> pacote Java e diretório do projeto.
+> **"Prumo" é o nome definitivo** (ver D-010). A identidade visual e verbal
+> completa sai de `docs/instructions-brandkit.md`, que ainda não está no
+> repositório (ver `docs/_FALTANDO.md`).
 
 Aplicativo Android para prestador de serviço técnico autônomo — refrigeração,
 elétrica, hidráulica, instalação — montar orçamento na casa do cliente, offline,

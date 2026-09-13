@@ -10,7 +10,7 @@ cadeia de autoridade seria inventar a lei do projeto.
 | `docs/instructions.md` | **1 — prevalece sobre tudo.** Como se constrói. | Seção 3 (stack), 4 (arquitetura), 5 (tipagem) e 10 (formato de `decisoes.md`) são citadas pelo ciclo 00 e não podem ser verificadas. O formato de `decisoes.md` foi interpretado. A tensão D-005 × D-007 fica sem árbitro. |
 | `docs/instructions-seguranca.md` | **2 — prevalece sobre entrega.** Auditoria. | Nenhum critério de auditoria é aplicável. Nenhum ciclo pode ser auditado. |
 | `docs/context.md` | **3 —** o que se constrói e por quê. | Dúvida de escopo não tem onde ser resolvida. O `applicationId` `com.prumo` foi escolhido sem base (D-009). |
-| `docs/instructions-brandkit.md` | Identidade. Citado no cabeçalho do `bootstrap.md`. | O nome "Prumo" está marcado como descartável e só este documento diz o que o substitui. |
+| `docs/instructions-brandkit.md` | Identidade visual e verbal. Citado no cabeçalho do `bootstrap.md`. | O nome já é "Prumo" (D-010). Falta a identidade visual/verbal completa (paleta, tipografia, tom de voz). |
 
 Além destes, o ciclo 01 depende de:
 
